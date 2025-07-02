@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOME</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script defer src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+
+                <div class="nav-links" id ="navLinks">
+
+                    <button id="close-sidebar-button" onclick="hideSidebar()" aria-label="close sidebar">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="service.html">SERVICES</a></li>
+                        <li><a href="works.html">OUR WORKS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+
+                <button id="open-sidebar-button" onclick="showSidebar()" aria-expanded="false" aria-controls="navLinks overlay" >
+                    <i class="fa-solid fa-bars" ></i>
+                </button>
+
+            </nav>
+        
+
+        <!-- Header Section-->
+        <section class="header">
+            <div id="overlay" onclick="hideSidebar()" aria-hidden="true"></div>
+
+            <div class="text-box">
+                <div class="word">
+                    <p><span class="flicker">Don't</span> <span class="fast-flicker">look</span> further, your <Span class="fast-flicker">solution</Span> is <span class="flicker">here!</span></p>
+                </div>
+               
+                <div class="company-name">
+                    <p>Lemarl Electrical, Refrigeration & Air Conditioning</p>
+                </div>
+
+                <div class="offer">
+                    <p>we provide</p>
+                </div>
+
+                <div class="services-offered">
+                    <p>Top-notch & Affordable Electrical, Refrigeration & Air Conditioning Services 24/7</p>
+                </div>
+
+                <div class="description">
+                    <p>Contact us anytime, our dedicated professionals are always available to provide high-quality solutions for your requirements</p>
+                </div>
+                
+                <div class="Get-in-Touch">
+                    <a href="form.html" class="hero-btn"><span class="fast-flicker">GET IN TOUCH</span></a>
+                </div>
+            </div>     
+        
+        </section>
+
+      
+    
+        <!-- Services Section-->
+        <section class="services">
+            <div class="heading">
+                <h1><span class="fast-flicker">Our</span> <Span class="flicker">Services</Span></h1>  
+            </div>
+            
+            <p>We offer a wide range of affordable services that meet our clients' needs. Our dedicated professionals are available 24/7 to deliver high-quality and sustainable solutions to our clients.</p>
+            
+            <div class="row">
+                <div class="service-col">
+                    <h3>Electrical</h3>
+
+                    <!-- Slider for Electrical Services -->
+                   
+                        <div class="slides">
+                            <!-- Images for the slider -->
+                            <div class="slide slide-1">
+                                <img src="images/electrical.jpg" alt="">
+                            </div>
+                            <div class="slide slide-2">
+                                <img src="images/electrical2.jpg" alt="">
+                            </div>
+                            <div class="slide slide-3">
+                                <img src="images/electrical3.jpeg" alt="">
+                            </div>
+                        </div>
+                   
+                    
+                    <!-- End of slider for Electrical Services -->
+            
+                    <p>We provide comprehensive electrical services, including installations, repairs and maintenance of Catering Equipment in restaurants. Our skilled electricians ensure safety and efficiency in all your electrical systems. <a href="service.html"> Read more...</a></p>
+                
+                    <a href="form.html" class="quote-btn"><span class="fast-flicker">GET A QUOTE</span></a>
+                </div>
+
+                <div class="service-col">
+                    <h3>Refrigeration</h3>
+
+                    <!-- Slider for Refrigeration Services -->
+                        <div class="slides">
+                            <!-- Images for the slider -->
+                            <div class="slide slide-1">
+                                <img src="images/rf1.jpg" alt="">
+                            </div>
+                            <div class="slide slide-2">
+                                <img src="images/rf2.png" alt="">
+                            </div>
+                            <div class="slide slide-3">
+                                <img src="images/rf3.jpg" alt="">
+                            </div>
+                        </div>
+                    <!-- End of slider for Refrigeration Services -->
+
+                    <p>We offer a wide range of refrigeration services, from installations to maintenance and repairs of Walk-in Freezer Rooms, Cold Rooms, Display Chillers, Refrigerated Containers, Beverage Coolers, Domestic Fridges, Ice Coolers etc.<a href="service.html"> Read more...</a> </p>
+                    
+                    <a href="form.html" class="quote-btn"><span class="fast-flicker">GET A QUOTE</span></a>
+                </div>
+
+                <div class="service-col">
+                    <h3>Air Conditioning</h3>
+
+                    <!-- Slider for Air Conditioning Services -->
+                        <div class="slides">
+                            <!-- Images for the slider -->
+                            <div class="slide slide-1">
+                                <img src="images/ac1.webp" alt="">
+                            </div>
+                            <div class="slide slide-2">
+                                <img src="images/ac2.jpeg" alt="">
+                            </div>
+                            <div class="slide slide-3">
+                                <img src="images/ac3.jpg" alt="">
+                            </div>
+                        </div>
+                    <!-- End of slider for Air Conditioning Services -->
+
+                    <p>We provide high-quality and affordable HVAC solutions for both residential and commercial (industrial) buildings. From new installations to servicing and maintenance, we ensure that your systems run smoothly and efficiently<a href="service.html"> Read more...</a></p>
+                    
+                    <a href="form.html" class="quote-btn"><span class="fast-flicker">GET A QUOTE</span></a>
+                </div>
+            </div>
+            
+            <div class="Get-in-Touch">
+                <a href="form.html" class="hero-btn"><span class="fast-flicker">GET IN TOUCH</span></a>
+            </div>
+
+        </section>   
+
+        <!-- Why Us Section-->
+
+        <section class="why-us">
+            <div class="heading">
+                <h1><span class="fast-flicker">Why</span> <Span class="flicker">Choose</Span> <span class="fast-flicker">Us</span><Span class="flicker">?</Span></span> </h1>  
+            </div>
+            <div class="row">
+                <div class="why-us-col">
+                    <h3><i class="fa-solid fa-medal"></i> Highly skilled technicians</h3>
+                    <p>Our highly skilled and dedicated technicians always deliver top-notch and sustainable solutions to our clients.</p>
+                </div>
+
+                <div class="why-us-col">
+                    <h3><i class="fa-regular fa-clock"></i> 24/7 Availablity</h3>
+                    <p>You can get in touch wih us and make a booking anytime. Our dedicated professionals are always available to serve you.</p>
+                </div>
+
+                <div class="why-us-col">
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> Top quality services</h3>
+                    <p>Our technicians use high-quality equipment to ensure top quality and efficient service delivery.</p>
+                </div>
+
+                <div class="why-us-col">
+                    <h3><i class="fa-solid fa-dollar-sign"></i> Affordable prices </h3>
+                    <p>Part of our commitment to client well-being, our services are always priced with you in mind.</p>
+                </div>
+            </div>
+            
+            <div class="Get-in-Touch">
+                <a href="form.html" class="hero-btn"><span class="fast-flicker">GET IN TOUCH</span></a>
+            </div>
+            
+        </section>
+
+
+        <!-- Call To Action Section-->
+       
+        <section class="cta">
+            <h1>Ready to Get Started?</h1>
+            <p>Contact us today to discuss your electrical, refrigeration, and air conditioning needs. Our team is here to help you find the best solutions for your requirements.</p>
+            <div class="Get-in-Touch">
+                <a href="form.html" class="hero-btn"><span class="fast-flicker">GET STARTED</span></a>
+            </div>
+        </section>
+
+
+        <!-- Footer Section-->
+
+        <section class="footer">
+            <h4>Lemarl Electrical</h4>
+            <p>We are a leading provider of electrical, refrigeration, and air conditioning services. <br/> Our mission is to deliver high-quality solutions that meet our clients' needs.</p>
+            <!--<div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>-->
+            <p>Located at: <a href="https://www.google.com/maps/place/17+Umganu+St,+Olievenhoutbos+15">17 Umganu St, Olievenhoutbos 15</a></p>
+            <p>Email us at: <a href="mailto:lemarlhove@gmail.com">lemarlhove@gmail.com</a></p>
+            <p>Call or Whatsapp us at: <a href="tel:+27842816321">+27 842 816 321</a></p>
+            <p>&copy; 2025 Lemarl Electrical, Refrigeration & Air Conditioning. All rights reserved.</p>
+        </section>
+        <a href="https://api.whatsapp.com/send?phone=27842816321" target="_blank">
+            <button class="btn-floating whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp Us</span>
+            </button>
+        </a>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </body>
+</html>

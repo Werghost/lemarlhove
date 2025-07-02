@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script defer src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+            <nav>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+
+                <div class="nav-links" id ="navLinks">
+
+                    <button id="close-sidebar-button" onclick="hideSidebar()" aria-label="close sidebar">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="service.html">SERVICES</a></li>
+                        <li><a href="works.html">OUR WORKS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+
+                <button id="open-sidebar-button" onclick="showSidebar()" aria-expanded="false" aria-controls="navLinks overlay" >
+                    <i class="fa-solid fa-bars" ></i>
+                </button>
+
+            </nav>
+        
+
+        <!-- Header Section-->
+        <section class="contact-header">
+            <div id="overlay" onclick="hideSidebar()" aria-hidden="true"></div>
+
+            <div class="text-box">
+                
+                <div class="contact-heading">
+                    <p>contact us</p>
+                </div>
+
+                <div class="description">
+                    <p>Contact us anytime, our dedicated professionals are always available to provide high-quality solutions for your requirements</p>
+                </div>
+                
+            </div>     
+        
+        </section>
+
+        <!-- Contact Section-->
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57421.38971349461!2d28.0552608!3d-25.9077331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957ab8e8ea3dfb%3A0xb6e17ee51bc7fd59!2s17%20Umganu%20St%2C%20Olievenhoutbos%2015%2C%20Centurion%2C%200187!5e0!3m2!1sen!2sza!4v1747987926418!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>17 Umganu St, Olievenhoutbos 15</h5>
+                            <p>Centurion, 0187</p>
+                        </span>
+                    </div>
+                
+
+                
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>+27 84 281 6321</h5>
+                            <p>Available 24/7</p>
+                        </span>
+                    </div>
+               
+
+                
+                   <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>
+                            <h5>lemarlhove@gmail.com</h5>
+                            <p>Email us your inquiry.</p>
+                        </span>
+                   </div> 
+
+                </div>
+
+                <div class="contact-col">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Contact Us Now</h2>
+                        
+                    </div>
+                    <input type="hidden" name="access_key" value="acd3e397-9958-4877-8d2a-82f55277afb5">
+                    <input type="text" name="name" placeholder ="Your Name" class="contact-inputs" required>
+                    <input type="tel" name="phone" placeholder ="Your Phone" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder ="Your Email" class="contact-inputs" required>
+                    <input type="text" name="address" placeholder ="Your Address" class="contact-inputs" required>
+                    <textarea name="message" placeholder ="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit" class="contact-button">SUBMIT <img src="assets/arrow_icon.png" alt=""> </button>
+                </form>
+                </div>
+            </div>
+
+            
+
+        </section>
+
+        <!-- Contact Section End-->
+
+      
+    
+        
+
+
+        
+
+        <!-- Footer Section-->
+
+        <section class="footer">
+            <h4>Lemarl Electrical</h4>
+            <p>We are a leading provider of electrical, refrigeration, and air conditioning services. <br/> Our mission is to deliver high-quality solutions that meet our clients' needs.</p>
+            <!--<div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>-->
+            <p>Located at: <a href="https://www.google.com/maps/place/17+Umganu+St,+Olievenhoutbos+15">17 Umganu St, Olievenhoutbos 15</a></p>
+            <p>Email us at: <a href="mailto:lemarlhove@gmail.com">lemarlhove@gmail.com</a></p>
+            <p>Call or Whatsapp us at: <a href="tel:+27842816321">+27 842 816 321</a></p>
+            <p>&copy; 2025 Lemarl Electrical, Refrigeration & Air Conditioning. All rights reserved.</p>
+        </section>
+        <a href="https://api.whatsapp.com/send?phone=27842816321" target="_blank">
+            <button class="btn-floating whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp Us</span>
+            </button>
+        </a>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </body>
+</html>
